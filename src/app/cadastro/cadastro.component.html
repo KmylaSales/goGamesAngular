@@ -1,0 +1,36 @@
+   <body>
+
+      <div class="logotipo"> 
+         <a href="#"><img class="logotipo" src="/assets/img/Logo.png" alt="Logo do site"></a>
+      </div>
+   
+         <div class="container">
+               
+            <h1>Bem-vindo \o/<br>Ainda não é cadastrado no nosso site?!<br>Vamos lá, então... :)</h1>
+
+         </div>
+                
+<form #userForm="ngForm" (ngSubmit)="onSubmit()">
+
+   <label for="cpf">CPF:</label>
+   <input type="cpf" id="cpf" name="cpf" [(ngModel)] = "userModel.cpf">
+
+   <label for="nome">NOME COMPLETO:</label>
+   <input type="nome" id="nome" name="nome" [(ngModel)] = "userModel.nome">
+
+   <label for="email">E-MAIL:</label>
+   <input type="email" id="email" name="email" [(ngModel)] = "userModel.email">
+   
+   <label for="senha">SENHA:</label>
+   <input type="password" id="senha" name="senha" [(ngModel)] = "userModel.senha">
+   
+   <button type="submit">Cadastrar</button>
+   
+   </form>
+     
+</body>             
+
+  
+
+
+ 
