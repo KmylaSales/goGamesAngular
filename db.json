@@ -1,0 +1,28 @@
+{
+  "dicas": [
+    {
+      "id": 1,
+      "imagem": "assets/img/Semana.jpg",
+      "titulo": "Semana Gamer",
+      "descricao": "Na semana gamer, temos os melhores descontos!"
+    },
+    {
+      "id": 2,
+      "imagem": "assets/img/Especialistas.jpg",
+      "titulo": "goEspecialistas",
+      "descricao": "Conheça todos os detalhes dos nossos produtos!"
+    },
+    {
+      "id": 3,
+      "imagem": "assets/img/Cartao.jpg",
+      "titulo": "Cartão goGames",
+      "descricao": "Conheça todas as vantagens e como ter o seu!"
+    },
+    {
+      "id": 4,
+      "imagem": "assets/img/Dicas.jpg",
+      "titulo": "Dicas da semana",
+      "descricao": "Conheça nossas dicas, sobre todo universo Gamer!"
+    }
+  ]
+}

@@ -63,7 +63,7 @@
         <ngb-carousel>
           <ng-template ngbSlide>
             <div class="picsum-img-wrapper">
-              <img src="/assets/img/Monitor.jpeg" alt="Random first slide">
+              <img src="/assets/img/monitor.jpeg" alt="Random first slide">
             </div>
             <div class="carousel-caption">
               <h3>Led Monitor Samsung 19,5'</h3>
@@ -72,38 +72,59 @@
           </ng-template>
           <ng-template ngbSlide>
             <div class="picsum-img-wrapper">
-              <img src="/assets/img/Monitor.jpeg" alt="Random second slide">
+              <img src="/assets/img/cpu.jpeg" alt="Random second slide">
             </div>
             <div class="carousel-caption">
-              <h3>Led Monitor Samsung 19,5'</h3>
-              <p>Monitor Led Full HD Samsung 120Hz</p>
+              <h3>CPU Gamer I7</h3>
+              <p>1TB 256SSD 4GB RAM Placa Asus</p>
             </div>
           </ng-template>
           <ng-template ngbSlide>
             <div class="picsum-img-wrapper">
-              <img src="/assets/img/Monitor.jpeg" alt="Random third slide">
+              <img src="assets/img/roteador.jpeg" alt="Random third slide">
             </div>
             <div class="carousel-caption">
-              <h3>Led Monitor Samsung 19,5'</h3>
-              <p>Monitor Led Full HD Samsung 120Hz</p>
+              <h3>Roteador 5Ghz</h3>
+              <p>Roteador ultra rápido 5 antenas</p>
             </div>
+            </ng-template>
+            <ng-template ngbSlide>
+              <div class="picsum-img-wrapper">
+                <img src="/assets/img/teclado.jpeg" alt="Random third slide">
+              </div>
+              <div class="carousel-caption">
+                <h3>Kit Teclado Mouse Fone</h3>
+                <p>Kit Gamer teclado Mouse e Fone</p>
+              </div>
+              </ng-template>
+              <ng-template ngbSlide>
+                <div class="picsum-img-wrapper">
+                  <img src="/assets/img/cadeira.jpeg" alt="Random third slide">
+                </div>
+                <div class="carousel-caption">
+                  <h3>Cadeira Gamer</h3>
+                  <p>Cadeira Gamer Random Macia</p>
+                </div>
           </ng-template>
         </ngb-carousel>
       </div>
 
 
-        <section class="secao-dicas container">
-            <div class="dicas">
-                <a href=""><img src="/assets/img/Semana.jpg"></a>
-              <div class="seg-dicas">
-                <a href=""><img src="/assets/img/Cartao.jpg"></a>
-                <a href=""><img src="/assets/img/Dicas.jpg"></a>
-                </div>
-                <div class="terc-dicas">
-                <a href=""><img src="/assets/img/Especialistas.jpg"></a>
+        <section class="secao-dicas">
+          <div class="container">
+            <div class="bloco-dicas">
+              <div id="espaco-dicas" class="content-dicas">
+            <div *ngFor="let dicas of listaDicas" class="dicas">
+                <img [src]=dicas.imagem alt="Dicas">
+                <h3>{{ dicas.titulo }}</h3>
+                <p>{{ dicas.descricao }}</p>
+              </div>
               </div>
             </div>
+          </div>
         </section>
+
+        
         <div class="departamentos container-grid">
             <img src="/assets/img/Menu.png">
             <p>Departamentos</p>
