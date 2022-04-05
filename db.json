@@ -1,4 +1,18 @@
 {
+  "users": [
+    {
+      "email": "drika@gmail.com",
+      "password": "$2a$10$gZOkscEwTffJobOmD9m1ae.e3/iK0XBL3mQyRKPbRHGpAt3kyrYgu",
+      "nome": "Adriana",
+      "id": 1
+    },
+    {
+      "email": "kmyla@gmail.com",
+      "password": "$2a$10$kEJhF05ShSNZ5KXPnK7KOO1aa8PXM4ObhkHLEhUvm01qkvoj2/uga",
+      "nome": "Camila",
+      "id": 2
+    }
+  ],
   "dicas": [
     {
       "id": 1,
