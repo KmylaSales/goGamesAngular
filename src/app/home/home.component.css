@@ -189,31 +189,28 @@ header{
     height: 90px;
     justify-content: flex-start;
 }
-.ofertas-email input[type="nome"]{
-    height: 55px;
-    width: 222px;
-    border-radius: 5px;
+form input[type="submit"] {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #C31616;    
+    color: white;
 }
 .ofertas-email input[type="email"]{
-    height: 55px;
+    height: 30px;
     width: 222px;
     border-radius: 5px;
 }
-.ofertas-email input[type="nome"]::placeholder{
-    color: gray;
-    font-weight: bold;
-}
-.ofertas-email input[type="email"]::placeholder{
-    color: gray;
-    font-weight: bold;
-}
-button{
-    height: 55px;
+.ofertas-nome input[type="nome"]{
+    height: 30px;
     width: 222px;
-    color: white;
-    background-color: rgb(242, 7, 19);
     border-radius: 5px;
-    font-size: 22px;
+}
+.button {
+    padding-top: 10px;
+    height: 30px;
+    width: 222px;
+    border-radius: 4px;
+    border: none;
 }
 footer{
     display: flex;

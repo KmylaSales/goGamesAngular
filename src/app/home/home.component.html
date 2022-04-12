@@ -19,14 +19,14 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="Login">Entre</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="Cadastro">Cadastre-se</a></li>
+              <li><a class="dropdown-item" href="Formulario">Cadastre-se</a></li>
             </ul>
           </li>
                </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Digite aqui..." aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">BUSCAR</button>
-        </form>
+               <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Digite aqui..." aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">BUSCAR</button>
+              </form>
       </div>
     </div>
   </nav>
@@ -145,11 +145,19 @@
             <div class="email container-grid">
                 <p>Receba ofertas<br>exclusivas</p>
                 <img src="/assets/img/email.png" alt="E-mail">
-                <form action="">
-                    <input id="campo-nome" type="nome" placeholder="Digite seu nome" required>
-                    <input id="campo-email" type="email" placeholder="Digite seu e-mail" required>
-                    <button>Cadastrar</button>
+
+                <form [formGroup]="formCadastro" (ngSubmit)="onSubmit()">
+                  <div class="form-group">
+                    <label for="nome">NOME COMPLETO</label>
+                    <input type="text" class="form-control" name="name" id="nome" formControlName="nome">
+                  </div>
+                    <div class="form-group">
+                      <label for="email">E-MAIL</label>
+                      <input type="email" class="form-control" name="email" id="email" formControlName="email">
+                    </div>
+                    <input type="submit" class="btn btn-primary" value="Cadastrar">
                 </form>
+
             </div>
         </section>
   

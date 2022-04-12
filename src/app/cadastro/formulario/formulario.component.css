@@ -14,10 +14,10 @@ main{
 }
 
 form{
-    width: 40%;
-    height: 400px;
+    width: 60%;
+    height: 800px;
     margin: 0 auto;
-    padding: 100px 0;
+    padding: 50px 0;
     background-color: rgb(197, 83, 188);
     display: flex;
     flex-direction: column;
@@ -32,11 +32,16 @@ form input[type="submit"] {
     color: white;
 }
 
-.campo-label{
-    width: 60%;
+.form-group{
+    width: 70%;
     margin: 0 auto;   
     display: flex;
     flex-direction: column;
+}
+
+.form-check{
+    width: 80%;
+    height: 80%;
 }
 
 input{
@@ -50,9 +55,10 @@ input, button{
 }
 
 button{
-    width: 200px;
+    width: 100%;
 }
 
-p{
+a{
+    width: 100%;
     text-align: center;
 }

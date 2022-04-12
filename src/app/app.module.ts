@@ -7,7 +7,8 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
+import { FormularioComponent } from './cadastro/formulario/formulario.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { HttpClientModule } from '@angular/common/http'
     AppComponent,
     HomeComponent,
     LoginComponent,
+    FormularioComponent
   ],
   imports: [
     ReactiveFormsModule,
@@ -22,7 +24,7 @@ import { HttpClientModule } from '@angular/common/http'
     AppRoutingModule,
     FormsModule,
     NgbModule,
-    HttpClientModule    
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

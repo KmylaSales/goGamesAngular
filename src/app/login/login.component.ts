@@ -1,7 +1,8 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Sanitizer } from '@angular/core';
 import { Router } from '@angular/router';
 import { User } from 'src/app/models/user';
 import { LoginService } from 'src/app/services/login.service';
+
 
 
 @Component({
@@ -16,6 +17,7 @@ export class LoginComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  
   loginModel = new User();
 
   mensagem = ""
@@ -32,4 +34,6 @@ export class LoginComponent implements OnInit {
       })      
     }
   }
+
+
 
