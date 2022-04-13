@@ -11,6 +11,12 @@
       "password": "$2a$10$kEJhF05ShSNZ5KXPnK7KOO1aa8PXM4ObhkHLEhUvm01qkvoj2/uga",
       "nome": "Camila",
       "id": 2
+    },
+    {
+      "email": "camila@gmail.com",
+      "password": "$2a$10$yGt1PdE1QcqBki1LcY78pOiOBWEl3Ndv2TbJsm7DBCh/GU3dfnq8a",
+      "nome": "Camila",
+      "id": 3
     }
   ],
   "dicas": [
