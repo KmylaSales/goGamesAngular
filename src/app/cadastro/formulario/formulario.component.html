@@ -1,9 +1,55 @@
-<header>
-    <div class="logotipo"> 
-        <a href="#"><img class="logotipo" src="/assets/img/Logo.png" alt="Logo do site"></a>
-     </div>
-</header>
-<main>
+
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/assets/img/Logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"><br>Favoritos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Notebooks</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Cadeiras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Hd's</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Mouses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Teclados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Monitores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Roteadores</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Consoles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Fones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><br>Mesas</a>
+              </li>
+            
+                   </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    
+<body>
+  <main>
 <form [formGroup]="formCadastro" (ngSubmit)="onSubmit()">
 
     <div class="form-group">
@@ -54,3 +100,69 @@
   </form>
 
 </main>
+<footer>
+  <div class="container">
+      <div class="link-footer">
+          <div class="link">
+              <h3>Institucional</h3>
+              <dl>
+                  <dd><a href="#">Sobre a goGames</a></dd>
+                  <dd><a href="#">Políticas de Troca</a></dd>
+                  <dd><a href="#">Políticas de Privacidade</a></dd>
+                  <dd><a href="#">Trabalhe Conosco</a></dd>
+                  <dd><a href="#">Código de Defesa do<br>Consumidor</a></dd>
+              </dl>
+          </div>
+      
+  <div class="link">
+      <h3>Minha Conta</h3>
+      <dl>
+          <dd><a href="#">Meus Pedidos</a></dd>
+          <dd><a href="#">Alterar Dados Pessoais</a></dd>
+      </dl>
+      <h3>FAQ</h3>
+      <dl>
+          <dd><a href="#">FAQ - Orientações</a></dd>
+          <dd><a href="#">Central SAC<br>(14) 3737-3737</a></dd>
+      </dl>
+  </div>
+  <div class="link">
+      <h3>Atendimento</h3>
+      <dl>
+          <dd><a href="#">Horário de Atendimento<br>Das 9h00 às 20h00<br>De Segunda à Sábado,<br>Horário de
+                  Brasília<br>(exceto Domingos e Feriados)</a></dd>
+      </dl>
+      <h3>E-mail</h3>
+      <dl>
+          <dd><a href="#">faleconosco@gogames.com.br</a></dd>
+      </dl>
+  </div>
+  <div class="sociais">
+      <h3>Baixe Nosso App</h3>
+      <a href="#"><img src="/assets/img/Apps.png"></a>
+      <h3>Nos siga nas redes</h3>
+      <a href="#"><img src="/assets/img/twiter.png"></a>
+      <a href="#"><img src="/assets/img/instagram.png"></a>
+      <a href="#"><img src="/assets/img/youtube.png"></a>
+  <div class="sociais">
+      <a href="#"><img src="/assets/img/linkedin.png"></a>
+      <a href="#"><img src="/assets/img/facebook.png"></a>
+      <a href="#"><img src="/assets/img/tiktok.png"></a>
+  </div>
+
+  </div>
+</div>
+</div>
+</footer>
+<section class="direitos container-grid">
+  <div clas="direitos">
+      <p>goGames® é uma marca registrada de goGames Comércio Eletrônico S/A| CNPJ: 12.345.678/0001-99 | Todos
+          os direitos reservados. Os preços anunciados neste site ou via e-mail promocional podem ser
+          alterados sem prévio aviso. A goGames não é responsável por erros descritivos. As fotos contidas
+          nesta página são meramente ilustrativas do produto e podem variar de acordo com o fornecedor/lote do
+          fabricante.</p>
+  </div>
+</section>
+</body>
+
+
